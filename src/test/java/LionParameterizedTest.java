@@ -35,6 +35,5 @@ public class LionParameterizedTest {
         //Assert
         Assert.assertEquals(expectedResult, actualResult);
     }
-
 }
 

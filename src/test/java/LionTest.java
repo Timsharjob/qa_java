@@ -40,7 +40,6 @@ public class LionTest {
         //Arrange
         Mockito.when(iFiline.getFood("Хищник")).thenReturn(List.of("Животные", "Птицы", "Рыба"));
         var expectedResult = List.of("Животные", "Птицы", "Рыба");
-
         Lion lion = new Lion("Самец", iFiline);
         //Act
         var actualResult = lion.getFood();

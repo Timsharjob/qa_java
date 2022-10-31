@@ -3,7 +3,7 @@ package com.example;
 import java.util.List;
 
 public interface IFiline {
-     int getKittens();
+    int getKittens();
 
-     List<String> getFood(String animalKind) throws Exception;
+    List<String> getFood(String animalKind) throws Exception;
 }
